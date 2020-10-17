@@ -1,0 +1,338 @@
+/****/
+
+html {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+body {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+head
+{
+height:0px;
+}
+
+header ul { margin-top:0%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*header ul li { background-color: aqua;}*/
+
+
+
+/**/
+
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 13%;
+}
+
+header.section-more-header{
+   /* position: relative; */
+    /* display: flex; */
+    /* -webkit-box-pack: justify; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    /* gap: 4px; */
+
+color: rgb(0, 107, 58);
+    margin-bottom: 1rem;
+    /* -webkit-box-align: center; */
+    /* align-items: center; */
+    padding-top: 1rem;
+    /* padding-bottom: 0px; */
+    border-top: 1px solid rgb(0, 107, 58);
+}
+
+
+header.section-more-header h2{
+    color: rgb(0, 107, 58);
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin: 0px;
+    font-family: "Libre Baskerville", serif;
+
+}
+
+
+.top-bar{
+    display: flex;
+    height: fit-content;
+    width: 100vw;
+    background-color: black;
+}
+
+.top-bar-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-block-end: inherit;
+    margin-block-start: inherit;
+    width: 60vw;
+}
+
+.vertical-bar{
+    display: inline-flex;
+    padding: 0 8px;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+}
+
+.vertical-bar::after{
+    width: 1px;
+    height: 14px;
+    background-color: rgb(102, 102, 102);
+    content: "";
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+div.bottom-bar{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.99);
+    top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 100%;
+    border-top: 4px solid rgb(0, 107, 58);
+    border-bottom: 1px solid rgb(229, 229, 229);
+
+}
+
+div.AFNS{
+    line-height: 31px;
+    max-height: 30px;
+    padding-left: 16px;
+    margin-left: 16px;
+    border-left: 1px solid rgb(204, 204, 204);
+    color: rgb(102, 102, 102);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: ElizabethSerif, Georgia, serif;
+    font-style: italic;
+}
+
+div.logo-nav-content{
+    position: relative;
+    display: flex;
+    height: 84px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+div.logo-quote{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    flex: 1 1 auto;
+    min-width: 0px;
+    margin-right: 12px;
+}
+
+div.shop-subscribe{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.search{
+    fill: currentcolor;
+    display: flex;
+}
+
+.bg-green-icon{
+    width: 32px;
+    height: 32px;
+    background-color: rgb(0, 107, 58);
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+
+}
+
+a.home{
+    color: white;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0px 6px;
+    transition: color 300ms ease 0s;
+    white-space: nowrap;
+    margin-right: 8px;
+    background: rgb(0, 107, 58);
+}
+
+a.home span{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    height: 21px;
+    line-height: 22px;
+    letter-spacing: 1.27px;
+}
+
+nav.navbar{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 22px;
+    margin-bottom: 24px;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+}
+
+span.nav-span{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    height: 21px;
+    line-height: 22px;
+    letter-spacing: 1.27px;
+}
+
+nav.navbar a {
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0px 6px;
+    transition: color 300ms ease 0s;
+    white-space: nowrap;
+    margin-right: 8px;
+}
+
+
+
+
+
+section.news{
+    max-width: 1336px;
+    margin: 0px auto;
+
+    height: 40vh;
+}
+
+div.start-articles-content{
+    display: flex;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+article.start-articles{
+    display: flex;
+    padding-right: 16px;
+    border-right: 1px solid rgb(229, 229, 229);
+    margin-right: calc(15px);
+}
+
+article.last-start-articles{
+    border-right: none;
+}
+
+
+div.start-articles-image{
+    width: 25%;
+}
+
+div.start-articles-image img{
+    height: 100%;
+    width: 100%;
+}
+
+div.start-articles-text{
+    width: 75%;
+
+}
+
+div.grid-articles{
+    grid-template-columns: calc(634px) 0px calc(301px) 0px calc(301px);
+    column-gap: 16px;
+}
+
+article.big-article{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    margin-bottom: calc(1.5rem - 1px);
+}
+
+article.second-big-article{
+display: flex;
+}
+
+span.green-articles-span{
+    margin-bottom: 0.5rem;
+    font-family: ProximaNovaCond, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(0, 107, 58);
+    cursor: pointer;
+}
+
+div.div-section-more-articles{
+    display: flex;
+}
+
+.article-section-more{
+    padding-right: 16px;
+    border-right: 1px solid rgb(229, 229, 229);
+    margin-right: calc(15px);
+    width: 25%;
+}
+
+.last-article-section-more{
+    border-right:none;
+}
+
+div.image-article-section-more{
+
+    height: 60%;
+}
+
+div.image-article-section-more img, div.image-article-section-more iframe{
+    height: 100%;
+    width: 100%;
+}
