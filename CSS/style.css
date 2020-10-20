@@ -170,6 +170,8 @@ div.logo-nav-content{
     height: 84px;
     -webkit-box-pack: justify;
     justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 80px;
 }
 div.logo-quote{
     display: flex;
@@ -257,6 +259,7 @@ nav.navbar{
     overflow: hidden;
     height: 22px;
     margin-bottom: 24px;
+    padding-left: 70px;
     -webkit-box-pack: start;
     justify-content: flex-start;
     -webkit-box-align: center;
